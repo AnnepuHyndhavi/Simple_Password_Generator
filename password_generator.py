@@ -24,11 +24,11 @@ password= "".join(choice(chc) for x in range (randint(4,8)))
 print("NEW PASSWORD is:", password)
 
 chc = s.ascii_letters+s.digits+s.punctuation                              #choice=chc
-password= "".join(choice(ch) for x in range (randint(5,16)))
+password= "".join(choice(chc) for x in range (randint(5,16)))
 
 print("NEW PASSWORD is:", password)
 
 chc = s.ascii_letters+s.digits+s.punctuation                              #choice=chc
-password= "".join(choice(ch) for x in range (randint(1,16)))
+password= "".join(choice(chc) for x in range (randint(1,16)))
 
 print("NEW PASSWORD is:", password)
