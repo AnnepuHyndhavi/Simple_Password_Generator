@@ -9,7 +9,7 @@ The randint() function can be used to simulate a lucky draw situation. It return
 
 For a password to be strong enough the capital letters, small letters and symbols are to be used.
 
-*chc = s.ascii_letters+s.digits+s.punctuation*                     
+__*chc = s.ascii_letters+s.digits+s.punctuation*__                     
 
 Choice takes the ascii letters, digits and the punctuations 
 
